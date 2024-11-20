@@ -33,8 +33,6 @@ El repositorio está organizado de la siguiente manera:
 
 base-de-datos-relacionales/ │ ├── clase_01_creacion_tablas/ │ ├── clase_01_creacion_tablas.sql │ └── README.md │ ├── clase_02_insertar_datos/ │ ├── clase_02_insertar_datos.sql │ └── README.md │ ├── clase_03_consultas/ │ ├── clase_03_consultas.sql │ └── README.md │ ├── clase_04_relaciones/ │ ├── clase_04_relaciones.sql │ └── README.md │ ├── clase_05_agregacion/ │ ├── clase_05_agregacion.sql │ └── README.md │ └── README.md
 
-sql
-Copiar código
 
 ## Descripción de las Clases y Contenido
 
