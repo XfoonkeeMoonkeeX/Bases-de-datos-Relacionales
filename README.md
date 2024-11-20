@@ -9,12 +9,20 @@ Este repositorio contiene el material y los ejercicios realizados en la asignatu
 
 El repositorio está organizado en carpetas por cada clase, de la siguiente manera:
 
-- **Clase_01_Introduccion**: Introducción a las bases de datos, conceptos básicos.
-- **Clase_02_Crear_Tablas**: Creación de tablas y definición de relaciones.
-- **Clase_03_Insertar_Datos**: Insertar datos en las tablas.
-- **Clase_04_Consultas_Select**: Consultas básicas con SELECT.
-- **Clase_05_Agregar_Condiciones**: Uso de condiciones con WHERE y operadores.
-- **Clase_06_Uniones**: Uniones entre tablas (JOIN).
+├── Clase_01_Introduccion │ ├── Clase_01_Introduccion.sql │ └── README.md ├── Clase_02_Crear_Tablas │ ├── Clase_02_Crear_Tablas.sql │ └── README.md ├── Clase_03_Insertar_Datos │ ├── Clase_03_Insertar_Datos.sql │ └── README.md ├── Clase_04_Consultas_Select │ ├── Clase_04_Consultas_Select.sql │ └── README.md ├── Clase_05_Agregar_Condiciones │ ├── Clase_05_Agregar_Condiciones.sql │ └── README.md └── Clase_06_Uniones ├── Clase_06_Uniones.sql └── README.md
+
+markdown
+Copiar código
+
+- **Clase_01_Introduccion**: Contiene los archivos y ejercicios de la primera clase sobre la introducción a las bases de datos.
+- **Clase_02_Crear_Tablas**: Contiene los archivos para crear tablas y definir relaciones.
+- **Clase_03_Insertar_Datos**: Contiene los ejercicios para insertar datos en las tablas creadas.
+- **Clase_04_Consultas_Select**: Ejercicios de consultas básicas utilizando `SELECT`.
+- **Clase_05_Agregar_Condiciones**: Incluye ejercicios con operadores y condiciones en las consultas SQL.
+- **Clase_06_Uniones**: Archivos relacionados con el uso de uniones entre tablas (`JOIN`).
+
+Cada carpeta de clase contiene un archivo `.sql` con el código de la clase y un archivo `README.md` con una breve descripción de los temas cubiertos y ejemplos adicionales.
+
 
 ### Requisitos Previos
 
