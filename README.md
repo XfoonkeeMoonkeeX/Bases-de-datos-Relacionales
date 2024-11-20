@@ -9,20 +9,48 @@ Este repositorio contiene el material y los ejercicios realizados en la asignatu
 
 El repositorio está organizado en carpetas por cada clase, de la siguiente manera:
 
-├── Clase_01_Presentacion│ ├── Clase_01_Presentacion.sql │ └── README.md ├── Clase_02_Crear_Tablas │ ├── Clase_02_Crear_Tablas.sql │ └── README.md ├── Clase_03_Insertar_Datos │ ├── Clase_03_Insertar_Datos.sql │ └── README.md ├── Clase_04_Consultas_Select │ ├── Clase_04_Consultas_Select.sql │ └── README.md ├── Clase_05_Agregar_Condiciones │ ├── Clase_05_Agregar_Condiciones.sql │ └── README.md └── Clase_06_Uniones ├── Clase_06_Uniones.sql └── README.md
-
-markdown
-Copiar código
-
-- **Clase_01_Introduccion**: Contiene los archivos y ejercicios de la primera clase sobre la introducción a las bases de datos.
-- **Clase_02_Crear_Tablas**: Contiene los archivos para crear tablas y definir relaciones.
-- **Clase_03_Insertar_Datos**: Contiene los ejercicios para insertar datos en las tablas creadas.
-- **Clase_04_Consultas_Select**: Ejercicios de consultas básicas utilizando `SELECT`.
-- **Clase_05_Agregar_Condiciones**: Incluye ejercicios con operadores y condiciones en las consultas SQL.
-- **Clase_06_Uniones**: Archivos relacionados con el uso de uniones entre tablas (`JOIN`).
-
-Cada carpeta de clase contiene un archivo `.sql` con el código de la clase y un archivo `README.md` con una breve descripción de los temas cubiertos y ejemplos adicionales.
-
+├── Clase-01-Presentacion  
+│   ├── Clase-01-Presentacion.sql  
+│   └── README.md  
+├── Clase-02-Ejercicios-2  
+│   ├── Clase-02-Ejercicios-2.sql  
+│   └── README.md  
+├── Clase-03-Materia-y-Ejercicios  
+│   ├── Clase_03-Materia-y-Ejercicios.sql  
+│   └── README.md  
+├── Clase-04-Scripts  
+│   ├── Clase-04-Scripts.sql  
+│   └── README.md  
+├── Clase-05-Ejercicios-de-Relacion  
+│   ├── Clase_05-Ejercicios-de-Relacion.sql  
+│   └── README.md  
+├── Clase-06-Ejercicios-Practicos  
+│   ├── Clase-06-Ejercicios-Practicos.sql  
+│   └── README.md  
+├── Clase-07-Ejercicios-BD
+│   ├── Clase-07-Ejercicios-BD.sql  
+│   └── README.md  
+├── Clase-08-BD-Sentencias
+│   ├── Clase-08-Sentencias.sql  
+│   └── README.md  
+├── Clase-09-Subconsultas  
+│   ├── Clase-09-Subconsultas.sql  
+│   └── README.md  
+├── Clase-10-Operadores-de-Union  
+│   ├── Clase-10-Operadores-de-Union.sql  
+│   └── README.md  
+├── Clase-11-Subconsultas-Avanzadas  
+│   ├── Clase-11-Subconsultas-Avanzadas.sql  
+│   └── README.md  
+├── Clase-12-Transacciones  
+│   ├── Clase-12-Transacciones.sql  
+│   └── README.md  
+├── Clase-13-Integridad-De-Datos  
+│   ├── Clase-13-Integridad-De-Datos.sql  
+│   └── README.md  
+└── Clase-14-Indizes-y-Optimizacion  
+    ├── Clase-14-Indizes-y-Optimizacion.sql  
+    └── README.md
 
 ### Requisitos Previos
 
@@ -109,9 +137,71 @@ Para utilizar el contenido de este repositorio, necesitas tener instalados los s
    - **Temas tratados**:
      - Uso de `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN` y `FULL OUTER JOIN`.
 
+#### Clase 7: **Funciones de Agregación**
+   - **Objetivo**: Aprender a usar funciones de agregación en SQL.
+   - **Temas tratados**:
+     - Funciones como `COUNT()`, `SUM()`, `AVG()`, `MIN()`, `MAX()`.
+
+#### Clase 8: **Funciones de Agregación Avanzadas**
+   - **Objetivo**: Aprender a aplicar funciones de agregación avanzadas.
+   - **Temas tratados**:
+     - Uso de `GROUP BY` y `HAVING`.
+
+#### Clase 9: **Subconsultas**
+   - **Objetivo**: Aprender a usar subconsultas en SQL.
+   - **Temas tratados**:
+     - Subconsultas en la cláusula `WHERE`.
+     - Subconsultas en la cláusula `FROM`.
+
+#### Clase 10: **Operadores de Unión**
+   - **Objetivo**: Aprender a usar los operadores de unión `UNION`, `INTERSECT`, y `EXCEPT`.
+   - **Temas tratados**:
+     - Unión de resultados de múltiples consultas.
+
+#### Clase 11: **Subconsultas Avanzadas**
+   - **Objetivo**: Mejorar el uso de subconsultas con casos avanzados.
+   - **Temas tratados**:
+     - Subconsultas correlacionadas.
+     - Subconsultas en la cláusula `SELECT`.
+
+#### Clase 12: **Transacciones**
+   - **Objetivo**: Aprender a usar transacciones en bases de datos.
+   - **Temas tratados**:
+     - Comandos `BEGIN`, `COMMIT`, `ROLLBACK`.
+
+#### Clase 13: **Integridad de Datos**
+   - **Objetivo**: Garantizar la integridad de los datos con restricciones.
+   - **Temas tratados**:
+     - Claves primarias y foráneas.
+     - Restricciones de integridad `NOT NULL`, `CHECK`, `DEFAULT`.
+
+#### Clase 14: **Índices y Optimización**
+   - **Objetivo**: Mejorar el rendimiento de las consultas con índices.
+   - **Temas tratados**:
+     - Creación y uso de índices.
+     - Optimización de consultas.
+
+#### Clase 15: **Vistas**
+   - **Objetivo**: Aprender a usar vistas para simplificar las consultas.
+   - **Temas tratados**:
+     - Creación y uso de vistas en SQL.
+     - Ventajas de las vistas para la organización de datos.
+
 ### Ejemplos de Uso y Ejecución
 
-Para ejecutar los ejemplos de SQL, simplemente abre el archivo `.sql` correspondiente en tu editor de SQL y ejecútalo en tu gestor de bases de datos. Aquí tienes un ejemplo básico de cómo usar una consulta `SELECT`:
+Para ejecutar los ejemplos de SQL, simplemente abre el archivo `.sql` correspondiente en tu editor de SQL y ejecuta las consultas paso a paso. Por ejemplo:
 
 ```sql
-SELECT * FROM estudiantes WHERE edad >= 21;
+-- Clase 1: Creación de la base de datos
+CREATE DATABASE ejemplo_bases_de_datos;
+Y luego continúa con las demás instrucciones.
+
+Contribuciones
+Si deseas contribuir a este repositorio, por favor sigue los siguientes pasos:
+
+Haz un fork del repositorio.
+Crea una rama para tu contribución (git checkout -b nueva-clase).
+Realiza tus cambios y haz un commit (git commit -am 'Añadir nueva clase').
+Haz un push de tus cambios (git push origin nueva-clase).
+Abre un pull request.
+Esperamos que este repositorio te sea útil para tus estudios en bases de datos relacionales. ¡Buena suerte en tu aprendizaje!
