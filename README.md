@@ -7,55 +7,6 @@ Este repositorio alberga todo el material y los ejercicios prácticos correspond
 
 Dentro de este repositorio, se encontrará una serie de clases que cubren temas fundamentales en el trabajo con bases de datos, como la creación de tablas, la inserción y consulta de datos, y la optimización de consultas. Cada clase está diseñada para fortalecer el entendimiento práctico de SQL y la gestión de bases de datos.
 
-## Estructura del Repositorio
-
-El repositorio está organizado en carpetas por cada clase, con los siguientes nombres y archivos asociados:
-├── Clase-01-Presentacion
-│ ├── Clase-01-Presentacion.sql
-│ └── README.md
-├── Clase-02-Ejercicios-2
-│ ├── Clase-02-Ejercicios-2.sql
-│ └── README.md
-├── Clase-03-Materia-y-Ejercicios
-│ ├── Clase-03-Materia-y-Ejercicios.sql
-│ └── README.md
-├── Clase-04-Scripts
-│ ├── Clase-04-Scripts.sql
-│ └── README.md
-├── Clase-05-Ejercicios-de-Relacion
-│ ├── Clase_05-Ejercicios-de-Relacion.sql
-│ └── README.md
-├── Clase-06-Ejercicios-Practicos
-│ ├── Clase-06-Ejercicios-Practicos.sql
-│ └── README.md
-├── Clase-07-Ejercicios-BD
-│ ├── Clase-07-Ejercicios-BD.sql
-│ └── README.md
-├── Clase-08-BD-Sentencias
-│ ├── Clase-08-BD-Sentencias.sql
-│ └── README.md
-├── Clase-09-BD-Ejercicios-Programiz
-│ ├── Clase-09-BD-Ejercicios-Programiz.sql
-│ └── README.md
-├── Clase-10-BD-Ejercicios-SQL-EASY
-│ ├── Clase-10-BD-Ejercicios-SQL-EASY.sql
-│ └── README.md
-├── Clase-11-BD-Ejercicios-Programiz
-│ ├── Clase-11-BD-Ejercicios-Programiz.sql
-│ └── README.md
-├── Clase-12-BD-Ejerciciosparaprueba
-│ ├── Clase-12-BD-Ejerciciosparaprueba.sql
-│ └── README.md
-├── Clase-13-BD-Mysql
-│ ├── Clase-13-BD-Mysql.sql
-│ └── README.md
-├── Clase-14-BD-Scripts
-│ ├── Clase-14-Scripts.sql
-│ └── README.md
-└── Clase-15-BD-Ejercicios-Mysql
-├── Clase-15-BD-Ejercicios.sql
-└── README.md
-
 ## Requisitos Previos
 
 Para utilizar el contenido de este repositorio, asegúrate de contar con lo siguiente:
