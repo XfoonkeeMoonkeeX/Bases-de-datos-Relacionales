@@ -199,7 +199,6 @@ Contribuciones
 
 Haz un fork del repositorio.
 Crea una rama para tu contribución:
-<<<<<<< HEAD
 
 git checkout -b nueva-clase
 
@@ -213,15 +212,5 @@ Abre un pull request.
 
 Esperamos que este repositorio sea útil para tus estudios. ¡Buena suerte en tu aprendizaje de bases de datos relacionales! 😊
 
-=======
-git checkout -b nueva-clase
-Realiza los cambios y haz un commit:
 
-git commit -am "Añadir nueva clase"
-Haz un push de tus cambios:
-
-git push origin nueva-clase
-Abre un pull request.
-
-Esperamos que este repositorio sea útil para tus estudios. ¡Buena suerte en tu aprendizaje de bases de datos relacionales! 😊
 
