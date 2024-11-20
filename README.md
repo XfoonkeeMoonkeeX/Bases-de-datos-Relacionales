@@ -10,7 +10,7 @@ Este repositorio incluye los archivos SQL generados en cada clase, los cuales co
 ## Estructura del Repositorio
 El repositorio está organizado en carpetas por clase. Cada clase tiene su propia carpeta con los ejercicios y archivos relevantes. A continuación se muestra una estructura de ejemplo:
 
-Bases-de-Datos-Relacionales/ ├── Clase_01_Introduccion/ │ ├── crear_base_de_datos.sql │ ├── crear_tablas.sql │ └── consultas_basicas.sql ├── Clase_02_Tablas_y_Consultas/ │ ├── insertar_datos.sql │ ├── consultas_select.sql │ └── joins.sql ├── Clase_03_Operaciones_avanzadas/ │ ├── actualizar_datos.sql │ └── eliminar_datos.sql ├── Clase_04_Claves_foraneas/ │ ├── relaciones_tablas.sql │ └── claves_foraneas.sql ├── Clase_05_Agregacion_y_Grupos/ │ ├── funciones_agregadas.sql │ └── agrupamiento.sql ├── Clase_06_Indices_y_Optimizacion/ │ ├── crear_indice.sql │ └── optimizacion_consultas.sql └── README.md
+Bases-de-Datos-Relacionales/ ├── Clase_01_Presentacion/ │ ├── crear_base_de_datos.sql │ ├── crear_tablas.sql │ └── consultas_basicas.sql ├── Clase_02_Tablas_y_Consultas/ │ ├── insertar_datos.sql │ ├── consultas_select.sql │ └── joins.sql ├── Clase_03_Operaciones_avanzadas/ │ ├── actualizar_datos.sql │ └── eliminar_datos.sql ├── Clase_04_Claves_foraneas/ │ ├── relaciones_tablas.sql │ └── claves_foraneas.sql ├── Clase_05_Agregacion_y_Grupos/ │ ├── funciones_agregadas.sql │ └── agrupamiento.sql ├── Clase_06_Indices_y_Optimizacion/ │ ├── crear_indice.sql │ └── optimizacion_consultas.sql └── README.md
 
 bash
 Copiar código
