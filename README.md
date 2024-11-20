@@ -215,16 +215,12 @@ Abre un pull request.
 Esperamos que este repositorio sea útil para tus estudios. ¡Buena suerte en tu aprendizaje de bases de datos relacionales! 😊
 
 =======
-bash
-Copiar código
 git checkout -b nueva-clase
 Realiza los cambios y haz un commit:
-bash
-Copiar código
+
 git commit -am "Añadir nueva clase"
 Haz un push de tus cambios:
-bash
-Copiar código
+
 git push origin nueva-clase
 Abre un pull request.
 Esperamos que este repositorio sea útil para tus estudios. ¡Buena suerte en tu aprendizaje de bases de datos relacionales! 😊
