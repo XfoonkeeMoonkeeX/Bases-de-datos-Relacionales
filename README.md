@@ -1,7 +1,4 @@
-Aquí tienes el README estructurado correctamente para tu repositorio de Bases de Datos Relacionales:
 
-markdown
-Copiar código
 # Bases de Datos Relacionales - Adiel Subiabre Díaz
 
 Este repositorio contiene los materiales y ejercicios de la asignatura **“Bases de Datos Relacionales”** del curso. Está diseñado para ayudarte a aprender y practicar conceptos fundamentales sobre bases de datos relacionales, utilizando SQL y gestores de bases de datos como MySQL o MariaDB.
@@ -58,6 +55,7 @@ SELECT * FROM clientes;
 
 -- Consultar un cliente por su nombre
 SELECT * FROM clientes WHERE nombre = 'Juan Pérez';
+
 Clase 03: Operaciones Avanzadas
 Objetivos:
 
@@ -67,6 +65,7 @@ Archivos:
 
 uniones_tablas.sql: Ejemplos de JOIN entre tablas.
 operadores_logicos.sql: Ejemplos de operadores lógicos.
+
 Clase 04: Claves Foráneas y Relaciones entre Tablas
 Objetivos:
 
@@ -82,6 +81,7 @@ CREATE TABLE pedidos (
 );
 
 INSERT INTO pedidos (cliente_id, fecha) VALUES (1, '2024-11-19');
+
 Clase 05: Funciones de Agregación y Agrupamiento
 Objetivos:
 
@@ -95,6 +95,7 @@ SELECT COUNT(*) FROM clientes;
 
 -- Consultar la edad promedio de los clientes
 SELECT AVG(edad) FROM clientes;
+
 Clase 06: Índices y Optimización de Consultas
 Objetivos:
 
@@ -104,12 +105,14 @@ Archivos:
 
 crear_indices.sql: Ejemplos de creación de índices en tablas.
 optimizacion_consultas.sql: Ejemplos de consultas optimizadas.
+
 Instrucciones de Uso
 Clonar el Repositorio
 Si deseas trabajar con los ejercicios de manera local, clona el repositorio en tu máquina:
 
 
-git clone https://github.com/tu_usuario/bases-de-datos-relacionales.git
+git clone https://github.com/XfoonkeeMoonkeeX/bases-de-datos-relacionales.git
+
 Crear la Base de Datos
 Antes de ejecutar los scripts, crea una base de datos de ejemplo en tu gestor de bases de datos:
 
