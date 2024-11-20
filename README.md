@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bases de Datos Relacionales: Material y Ejercicios de la Clase
 
 ## Descripción General del Repositorio
@@ -8,52 +9,137 @@ Dentro de este repositorio, se encontrará una serie de clases que cubren temas 
 
 ## Estructura del Repositorio
 
-El repositorio está organizado en carpetas por cada clase, con los siguientes nombres y archivos asociados:
-├── Clase-01-Presentacion
-│ ├── Clase-01-Presentacion.sql
-│ └── README.md
-├── Clase-02-Ejercicios-2
-│ ├── Clase-02-Ejercicios-2.sql
-│ └── README.md
-├── Clase-03-Materia-y-Ejercicios
-│ ├── Clase-03-Materia-y-Ejercicios.sql
-│ └── README.md
-├── Clase-04-Scripts
-│ ├── Clase-04-Scripts.sql
-│ └── README.md
-├── Clase-05-Ejercicios-de-Relacion
-│ ├── Clase_05-Ejercicios-de-Relacion.sql
-│ └── README.md
-├── Clase-06-Ejercicios-Practicos
-│ ├── Clase-06-Ejercicios-Practicos.sql
-│ └── README.md
-├── Clase-07-Ejercicios-BD
-│ ├── Clase-07-Ejercicios-BD.sql
-│ └── README.md
-├── Clase-08-BD-Sentencias
-│ ├── Clase-08-BD-Sentencias.sql
-│ └── README.md
-├── Clase-09-BD-Ejercicios-Programiz
-│ ├── Clase-09-BD-Ejercicios-Programiz.sql
-│ └── README.md
-├── Clase-10-BD-Ejercicios-SQL-EASY
-│ ├── Clase-10-BD-Ejercicios-SQL-EASY.sql
-│ └── README.md
-├── Clase-11-BD-Ejercicios-Programiz
-│ ├── Clase-11-BD-Ejercicios-Programiz.sql
-│ └── README.md
-├── Clase-12-BD-Ejerciciosparaprueba
-│ ├── Clase-12-BD-Ejerciciosparaprueba.sql
-│ └── README.md
-├── Clase-13-BD-Mysql
-│ ├── Clase-13-BD-Mysql.sql
-│ └── README.md
-├── Clase-14-BD-Scripts
-│ ├── Clase-14-Scripts.sql
-│ └── README.md
-└── Clase-15-BD-Ejercicios-Mysql
-├── Clase-15-BD-Ejercicios.sql
-└── README.md
+El repositorio está organizado en carpetas por cada clase, con los siguientes nombres y archivos asociados:Ñ
+├── Introduccion-y-Fundamentos
+│   .:
+archivo-modificado.py
+Clase-01-Introduccion-a-SQL/
+Clase-02-Fundamentos-SQL/
+Clase-03-Ejercicios-de-Relaciones/
+Clase-04-Ejercicios-SQL-Scripts/
+Clase-05-Ejercicios-de-Relacion-BD/
+Clase-06-Ejercicios-Practicos-SQL/
+Clase-07-Ejercicios-BD-Practicos/
+Clase-08-Sentencias-SQL/
+Clase-09-Funciones-y-SQL/
+Clase-10-BD-Ejercicios-Programiz/
+Clase-11-BD-Ejercicios-SQL-Easy/
+Clase-12-BD-Ejercicios-paraprueba/
+Clase-13-BD-Mysql/
+Clase-14-BD-Scripts-Avanzados/
+Clase-15-BD-Ejercicios-MySQL/
+Código/
+Ejercicio2.py
+estructura.txt
+Prueba/
+README.md
+Recursos de la asignatura/
+
+./Clase-01-Introduccion-a-SQL:
+Clase-01-Introduccion-a-SQL.sql
+Clase-1-Ejercicio.png
+Clase-1-Presentacion_BD.pptx
+README.md
+
+./Clase-02-Fundamentos-SQL:
+Clase-02-Fundamentos-SQL.sql
+Clase-1-Ejercicio.png
+Clase-1-Presentacion_BD.pptx
+Clase-2-BD-Revista.drawio
+Clase-2-BD-Venta-Equipos.drawio
+README.md
+
+./Clase-03-Ejercicios-de-Relaciones:
+Clase-03-Ejercicios-de-Relaciones.sql
+Clase-1-Ejercicio.png
+Clase-1-Presentacion_BD.pptx
+Clase-3-Ejemplo-Script.txt
+README.md
+
+./Clase-04-Ejercicios-SQL-Scripts:
+Clase-04-Ejercicios-SQL-Scripts.sql
+Clase-4-Ejemplo-Script-2.txt
+Clase-4-Ejemplo-Script-3.png
+Clase-4-Ejemplo-Script-4.png
+Clase-4-Ejemplo-Script-5.png
+README..md
+
+./Clase-05-Ejercicios-de-Relacion-BD:
+Clase-05-Ejercicios-de-Relacion-BD.sql
+README.md
+Relación-Instituto.png
+
+./Clase-06-Ejercicios-Practicos-SQL:
+Clase-06-Ejercicios-Practicos-SQL.sql
+Clase-1-Ejercicio.png
+Clase-1-Presentacion_BD.pptx
+Clase-6-BD-Automotora.accdb
+Clase-6-BD-Camiones-Access.accdb
+Clase-6-BD-Clientes-Access.accdb
+Clase-6-BD-Clínica-Access.accdb
+Clase-6-BD-Estudiantes.accdb
+Clase-6-Ejercicios.png
+README.md
+
+./Clase-07-Ejercicios-BD-Practicos:
+Clase-07-Ejercicios-BD-Practicos.sql
+Clase-7-BD-Biblioteca.drawio
+README.md
+
+./Clase-08-Sentencias-SQL:
+Clase 02-10 BD.txt
+Clase-08-Sentencias-SQL.sql
+README.md
+
+./Clase-09-Funciones-y-SQL:
+Clase-09-Funciones-y-SQL-Avanzado.sql
+Ejercicio-Plan-contingencia.txt
+Paciente-emergencia.txt
+Plan contingencia-draw.io.png
+README.md
+
+./Clase-10-BD-Ejercicios-Programiz:
+Clase-10-BD-Ejercicios-Programiz.sql
+inner.txt
+REAME.md
+
+./Clase-11-BD-Ejercicios-SQL-Easy:
+Clase-11-BD-Ejercicios-SQL-Easy.sql
+Productos-supermercado.txt
+README.md
+
+./Clase-12-BD-Ejercicios-paraprueba:
+Clase-12-BD-Ejercicios-paraprueba.sql
+Prueba.txt
+README.md
+
+./Clase-13-BD-Mysql:
+Basedatos-empresa.txt
+Clase-13-BD-Mysql.sql
+README.md
+
+./Clase-14-BD-Scripts-Avanzados:
+Clase-14-BD-Scripts-Avanzados.sql
+README.md
+Script-mysql.txt
+
+./Clase-15-BD-Ejercicios-MySQL:
+Captura_de_pantalla_2024-10-26_125414.png
+Captura_de_pantalla_2024-10-29_010145.png
+Captura_de_pantalla_2024-11-05_184126.png
+Clase-15-BD-Ejercicios-MySQL.sql
+Ejercicios-Mysql-Escuela
+README.md
+Untitled-1.txt
+
+./Código:
+eee.sql
+
+./Prueba:
+Clase-1-Presentacion_BD.pptx
+
+./Recursos de la asignatura:
+Clase-5-BD-Guía.pdf
 
 ## Requisitos Previos
 
@@ -211,4 +297,7 @@ git push origin nueva-clase
 Abre un pull request.
 
 Esperamos que este repositorio sea útil para tus estudios. ¡Buena suerte en tu aprendizaje de bases de datos relacionales! 😊
+
+=======
+
 
