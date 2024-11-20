@@ -192,7 +192,6 @@ Clase 1	Introducción a las bases de datos relacionales.	Conceptos básicos: tab
 | Clase 13| Integridad de datos.                       | Claves primarias, foráneas, restricciones. | `sql CREATE TABLE matriculas (id INT PRIMARY KEY, estudiante_id INT, FOREIGN KEY (estudiante_id) REFERENCES estudiantes(id));` | Crear una tabla `matriculas` con una clave foránea que haga referencia a `estudiantes`.                   |
 | Clase 14| Índices y optimización.                    | Creación de índices y consultas optimizadas. | `sql CREATE INDEX idx_nombre ON estudiantes (nombre);`            | Crear un índice para la columna `nombre` en la tabla `alumnos` para optimizar consultas.                   |
 | Clase 15| Vistas y procedimientos.                   | Creación y uso de vistas.             | `sql CREATE VIEW vista_estudiantes AS SELECT nombre, edad FROM estudiantes WHERE edad > 18;` | Crear una vista llamada `vista_estudiantes` que muestre solo los estudiantes mayores de 18 años.         |
->>>>>>> fdcb3c194555f10bb57fe92eec2e292bf8aa6957
 
 Contribuciones
 ¿Quieres contribuir? Sigue estos pasos:
