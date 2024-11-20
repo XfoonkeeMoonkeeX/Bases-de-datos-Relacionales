@@ -1,148 +1,133 @@
+
 # Bases de Datos Relacionales - Adiel Subiabre Díaz
 
-Este repositorio contiene el material y los ejercicios de la asignatura **“Bases de Datos Relacionales”**. Aquí se encuentran los códigos de las consultas SQL y ejemplos prácticos realizados durante las clases.
+Este repositorio contiene los materiales y ejercicios de la asignatura “Bases de Datos Relacionales” del curso. Está diseñado para ayudarte a aprender y practicar conceptos fundamentales sobre bases de datos relacionales, utilizando SQL y gestores de bases de datos como MySQL o MariaDB.
 
-## Descripción General del Repositorio
-Este repositorio tiene como objetivo proporcionar los ejercicios y conceptos fundamentales sobre **Bases de Datos Relacionales**. Durante el curso, se explorarán conceptos como la creación de bases de datos, tablas, consultas SQL y más. Cada clase tendrá una carpeta correspondiente con los ejercicios realizados en clase.
+## Descripción General
 
-Este repositorio incluye los archivos SQL generados en cada clase, los cuales contienen ejemplos de consultas y operaciones sobre bases de datos relacionales.
+El curso cubre desde la creación de bases de datos y tablas hasta operaciones avanzadas, optimización de consultas y uso de claves foráneas para establecer relaciones entre tablas. Los ejercicios prácticos están diseñados para que puedas aplicar estos conceptos en un entorno real de bases de datos.
 
 ## Estructura del Repositorio
-El repositorio está organizado en carpetas por clase. Cada clase tiene su propia carpeta con los ejercicios y archivos relevantes. A continuación se muestra una estructura de ejemplo:
 
-Bases-de-Datos-Relacionales/ ├── Clase_01_Introduccion/ │ ├── crear_base_de_datos.sql │ ├── crear_tablas.sql │ └── consultas_basicas.sql ├── Clase_02_Tablas_y_Consultas/ │ ├── insertar_datos.sql │ ├── consultas_select.sql │ └── joins.sql ├── Clase_03_Operaciones_avanzadas/ │ ├── actualizar_datos.sql │ └── eliminar_datos.sql ├── Clase_04_Claves_foraneas/ │ ├── relaciones_tablas.sql │ └── claves_foraneas.sql ├── Clase_05_Agregacion_y_Grupos/ │ ├── funciones_agregadas.sql │ └── agrupamiento.sql ├── Clase_06_Indices_y_Optimizacion/ │ ├── crear_indice.sql │ └── optimizacion_consultas.sql └── README.md
+Este repositorio está organizado en carpetas por clase y contiene los ejercicios prácticos, scripts SQL y ejemplos utilizados en cada tema:
 
-bash
-Copiar código
+- **Clase 01: Introducción a Bases de Datos y Creación de Tablas**
+- **Clase 02: Consultas SELECT y Operaciones Básicas**
+- **Clase 03: Operaciones Avanzadas**
+- **Clase 04: Claves Foráneas y Relaciones entre Tablas**
+- **Clase 05: Funciones de Agregación y Agrupamiento**
+- **Clase 06: Índices y Optimización de Consultas**
+
+Cada clase contiene:
+- **Archivos SQL**: Scripts para ejecutar directamente en tu gestor de bases de datos.
+- **Ejercicios**: Problemas prácticos para resolver y reforzar lo aprendido.
+- **Ejemplos**: Consultas y soluciones comentadas.
 
 ## Requisitos Previos
-Para trabajar con este repositorio, es necesario contar con las siguientes herramientas y conocimientos previos:
 
-- **Gestor de Bases de Datos Relacionales**: MySQL, MariaDB o SQLite.
-- **Conocimientos de SQL**: Entender las operaciones básicas de SQL (SELECT, INSERT, UPDATE, DELETE) y conocer la estructura de bases de datos relacionales.
+- Conocimientos básicos de SQL.
+- Un gestor de bases de datos como MySQL, MariaDB o SQLite instalado y configurado.
 
-Si no tienes MySQL o MariaDB instalado, puedes seguir las instrucciones en [este enlace para la instalación](https://dev.mysql.com/doc/refman/8.0/en/installing.html).
+## Instrucciones de Uso
 
-## Instrucciones para Clonar y Configurar el Repositorio
-Clona el repositorio en tu máquina local usando Git:
-
-```bash
-git clone https://github.com/AdielSubiabre/Bases-de-Datos-Relacionales.git
-Abre tu gestor de bases de datos (por ejemplo, MySQL Workbench, DBeaver, o cualquier otro cliente compatible) y conéctate a tu base de datos local.
-
-Si estás trabajando con MySQL o MariaDB, puedes importar los archivos .sql de cada clase para ejecutar las consultas en tu base de datos.
-
-Si es necesario, crea una base de datos de prueba antes de ejecutar las consultas:
+1. **Clonar el Repositorio**: 
+   Si deseas trabajar con los ejercicios de manera local, clona este repositorio en tu máquina:
+   ```bash
+   git clone https://github.com/tu_usuario/bases-de-datos-relacionales.git
+Crear la Base de Datos: Antes de ejecutar los scripts, crea una base de datos de ejemplo en tu gestor de bases de datos:
 
 sql
 Copiar código
 CREATE DATABASE test_db;
 USE test_db;
-Descripción de Ejercicios y Contenido por Clase
-Clase 1: Introducción a Bases de Datos y Creación de Tablas
-Objetivos: Aprender a crear bases de datos, tablas, y cómo insertar datos básicos.
+Ejecutar los Scripts:
+
+Navega a la carpeta correspondiente a la clase que deseas trabajar.
+Ejecuta los scripts SQL dentro del gestor de bases de datos.
+Revisar Ejercicios: En cada clase, encontrarás ejercicios prácticos para resolver. Estos ejercicios están diseñados para que puedas aplicar lo aprendido en el curso.
+
+Detalles por Clase
+Clase 01: Introducción a Bases de Datos y Creación de Tablas
+Objetivos:
+
+Crear una base de datos y definir tablas.
+Establecer claves primarias y relaciones básicas entre tablas.
 Archivos:
 
-crear_base_de_datos.sql: Script para crear una base de datos.
-crear_tablas.sql: Script para crear tablas con claves primarias y foráneas.
-Clase 2: Consultas SELECT y Operaciones Básicas
-Objetivos: Aprender a realizar consultas con SELECT, y realizar operaciones básicas como insertar datos.
-Archivos:
+crear_base_de_datos.sql: Script para crear una base de datos de ejemplo.
+crear_tablas.sql: Script para crear tablas con claves primarias.
+consultas_basicas.sql: Ejemplos de consultas básicas para interactuar con las tablas.
+Instrucciones:
 
-consultas_select.sql: Ejemplos de consultas utilizando SELECT.
-insertar_datos.sql: Script para insertar datos en tablas.
-Clase 3: Operaciones Avanzadas
-Objetivos: Aprender a realizar operaciones avanzadas como actualización y eliminación de datos.
-Archivos:
-
-actualizar_datos.sql: Script para actualizar registros en tablas.
-eliminar_datos.sql: Script para eliminar registros de tablas.
-Clase 4: Claves Foráneas y Relaciones entre Tablas
-Objetivos: Comprender cómo establecer relaciones entre tablas utilizando claves foráneas, y cómo integrarlas en las consultas.
-Archivos:
-
-relaciones_tablas.sql: Script para crear relaciones entre tablas.
-claves_foraneas.sql: Ejemplos de consultas que utilizan claves foráneas para establecer relaciones.
-Clase 5: Funciones de Agregación y Agrupamiento
-Objetivos: Aprender a usar funciones agregadas (SUM, AVG, COUNT, etc.) y cómo agrupar datos con GROUP BY.
-Archivos:
-
-funciones_agregadas.sql: Ejemplos de funciones agregadas en consultas.
-agrupamiento.sql: Consultas que utilizan GROUP BY para agrupar registros y realizar cálculos.
-Clase 6: Índices y Optimización de Consultas
-Objetivos: Comprender cómo crear índices para mejorar el rendimiento de las consultas y cómo optimizar las consultas SQL.
-Archivos:
-
-crear_indice.sql: Script para crear índices en tablas.
-optimizacion_consultas.sql: Ejemplos de consultas optimizadas utilizando índices.
-Ejemplos de Uso y Ejecución
-Ejecutar Consultas en MySQL
-Abre tu terminal o consola y accede a MySQL:
-
-bash
-Copiar código
-mysql -u root -p
-Selecciona la base de datos en la que deseas trabajar:
+Ejecuta crear_base_de_datos.sql para crear la base de datos.
+Ejecuta crear_tablas.sql para crear las tablas.
+Realiza las consultas con consultas_basicas.sql.
+Ejemplo de uso:
 
 sql
 Copiar código
+-- Crear la base de datos
+CREATE DATABASE test_db;
 USE test_db;
-Ejecuta los scripts de la clase:
 
-sql
-Copiar código
-SOURCE Clase_01_Introduccion/crear_base_de_datos.sql;
-SOURCE Clase_01_Introduccion/crear_tablas.sql;
-Consultas SQL Básicas
-sql
-Copiar código
--- Seleccionar todos los registros de una tabla
-SELECT * FROM clientes;
-
--- Insertar un nuevo cliente
-INSERT INTO clientes (nombre, direccion) VALUES ('Juan Pérez', 'Calle Falsa 123');
-Crear una Clave Foránea
-sql
-Copiar código
 -- Crear una tabla de clientes
 CREATE TABLE clientes (
   id_cliente INT AUTO_INCREMENT PRIMARY KEY,
   nombre VARCHAR(100),
   direccion VARCHAR(255)
 );
+Clase 02: Consultas SELECT y Operaciones Básicas
+Objetivos:
 
--- Crear una tabla de pedidos con una clave foránea a la tabla clientes
-CREATE TABLE pedidos (
-  id_pedido INT AUTO_INCREMENT PRIMARY KEY,
-  id_cliente INT,
-  fecha DATE,
-  FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente)
-);
-Recursos de Apoyo
-Documentación oficial de MySQL
-Tutorial de SQL en W3Schools
-Curso de Bases de Datos en Khan Academy
-Contribuciones y Actualizaciones
-Este repositorio se actualizará con nuevos ejercicios y contenido conforme avance el curso. Las contribuciones están abiertas, si deseas mejorar o agregar nuevos ejercicios, por favor abre un pull request.
+Utilizar el comando SELECT para obtener datos.
+Aplicar filtros, ordenar resultados y limitar las filas mostradas.
+Archivos:
 
-Cada clase se actualizará con nuevas carpetas y archivos que contengan los ejercicios realizados en clase.
+consultas_select.sql: Script para aprender a utilizar SELECT con filtros, ORDER BY y LIMIT.
+Instrucciones:
 
-¡Gracias por explorar este repositorio de Bases de Datos Relacionales! ¡Esperamos que encuentres útil este material para tu aprendizaje!
+Ejecuta el archivo consultas_select.sql para ver ejemplos de consultas.
+Clase 03: Operaciones Avanzadas
+Objetivos:
 
-markdown
-Copiar código
+Realizar uniones entre tablas.
+Usar operadores lógicos para mejorar las consultas.
+Archivos:
 
-### Cómo utilizarlo:
-- **Encabezados**: Se utilizan para organizar el contenido.
-- **Listas**: Para la estructura de clases y ejemplos.
-- **Código**: Los fragmentos de código SQL están dentro de bloques de código (```` ` ``` ````).
-- **Enlaces**: Enlaces útiles a recursos externos.
-- **Archivos de clases**: Se mencionan con su nombre y propósito.
+uniones_tablas.sql: Ejemplos de JOIN entre tablas.
+operadores_logicos.sql: Ejemplos de operadores como AND, OR y NOT.
+Clase 04: Claves Foráneas y Relaciones entre Tablas
+Objetivos:
 
+Establecer relaciones entre tablas utilizando claves foráneas.
+Realizar consultas con datos relacionados.
+Archivos:
 
+crear_relaciones.sql: Script para definir claves foráneas.
+consultas_relaciones.sql: Ejemplos de consultas con relaciones entre tablas.
+Clase 05: Funciones de Agregación y Agrupamiento
+Objetivos:
 
+Utilizar funciones de agregación como SUM, COUNT, AVG, MAX, MIN.
+Agrupar resultados con GROUP BY y aplicar filtros con HAVING.
+Archivos:
 
+funciones_agregacion.sql: Ejemplos de funciones de agregación.
+agrupamiento.sql: Ejemplos de agrupamiento de datos.
+Clase 06: Índices y Optimización de Consultas
+Objetivos:
 
+Crear índices para optimizar consultas.
+Realizar consultas más eficientes utilizando índices.
+Archivos:
 
+crear_indices.sql: Ejemplos de creación de índices en tablas.
+optimizacion_consultas.sql: Ejemplos de consultas optimizadas utilizando índices.
+Contribuciones
+Si deseas mejorar o agregar nuevos ejercicios, puedes abrir un pull request. Las contribuciones son bienvenidas.
 
-# Bases-de-datos-Relacionales
+Licencia
+Este proyecto está bajo la licencia MIT - consulta el archivo LICENSE para más detalles.
+
+Contacto:
+Si tienes preguntas o sugerencias, no dudes en contactarme a través de mi perfil en GitHub.
