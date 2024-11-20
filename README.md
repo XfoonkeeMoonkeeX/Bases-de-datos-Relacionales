@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Bases de Datos Relacionales: Material y Ejercicios de la Clase
 
 ## Descripción General del Repositorio
@@ -69,7 +68,7 @@ Para utilizar el contenido de este repositorio, asegúrate de contar con lo sigu
 
 Ejecuta el siguiente comando en tu terminal:
 
-```bash
+
 git clone https://github.com/XfoonkeeMoonkeeX/bases-de-datos-relacionales.git
 
 Abrir los archivos .sql:
@@ -223,6 +222,6 @@ Haz un push de tus cambios:
 
 git push origin nueva-clase
 Abre un pull request.
+
 Esperamos que este repositorio sea útil para tus estudios. ¡Buena suerte en tu aprendizaje de bases de datos relacionales! 😊
 
->>>>>>> fdcb3c194555f10bb57fe92eec2e292bf8aa6957
