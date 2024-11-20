@@ -86,8 +86,6 @@ Cada clase contiene:
    git clone https://github.com/tu_usuario/bases-de-datos-relacionales.git
 Crear la Base de Datos: Antes de ejecutar los scripts, crea una base de datos de ejemplo en tu gestor de bases de datos:
 
-sql
-Copiar código
 CREATE DATABASE test_db;
 USE test_db;
 Ejecutar los Scripts:
